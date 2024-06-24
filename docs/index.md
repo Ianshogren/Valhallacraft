@@ -4,15 +4,19 @@ navname: Home
 
 # Cells at the bottom of the page
 cellLinks:
-  - cname: Server Map
+  - cname: Server Dynmap (2D)
     curl: map
-    cimage: media/demo02.jpg
+    cimage: media/Dynmap.png
+
+  - cname: Server Bluemap (3D)
+    curl: mapBlue
+    cimage: media/Bluemap.png
 
   - cname: Screenshots
     curl: screenshots
     cimage: media/demo03.jpg
 
-  - cname: Donate
-    curl: donate
+  - cname: Book
+    curl: book
     cimage: media/demo04.jpg
 ---
