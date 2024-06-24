@@ -1,8 +1,22 @@
----
-layout: page
-navname: About
----
+# About
 
-# {{ site.serverName }}
+This is the about page. The file should automatically download.
 
-This website is used to host our server information
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Page</title>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = '/media/book.png';  // Use the correct relative path to your file
+            link.download = 'book.png';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+</body>
+</html>
