@@ -19,10 +19,9 @@ cellLinks:
   - cname: Book
     curl: book
     cimage: media/Book.png
-    
- - cname: Screenshots
+
+  - cname: Screenshots
     curl: screenshots
     cimage: media/screenshot.png
-
 
 ---
