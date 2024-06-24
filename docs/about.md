@@ -1,3 +1,3 @@
 # About
 
-This is the about page. I am lazy
+Current modpack version 1.0.5

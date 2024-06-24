@@ -8,15 +8,21 @@ cellLinks:
     curl: map
     cimage: media/Dynmap.png
 
+  - cname: Server History
+    curl: history
+    cimage: media/history.png
+
   - cname: Server Bluemap (3D)
     curl: mapBlue
     cimage: media/Bluemap.png
 
-  - cname: Screenshots
-    curl: screenshots
-    cimage: media/screenshot.png
-
   - cname: Book
     curl: book
     cimage: media/Book.png
+    
+ - cname: Screenshots
+    curl: screenshots
+    cimage: media/screenshot.png
+
+
 ---
