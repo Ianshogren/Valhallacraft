@@ -11,8 +11,8 @@ This is the about page. The file should automatically download.
     <script type="text/javascript">
         window.onload = function() {
             var link = document.createElement('a');
-            link.href = '/media/book.png';  // Use the correct relative path to your file
-            link.download = 'book.png';
+            link.href = '/media/Book.png';  // Use the correct relative path to your file
+            link.download = 'Book.png';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);

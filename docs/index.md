@@ -18,5 +18,5 @@ cellLinks:
 
   - cname: Book
     curl: book
-    cimage: media/book.png
+    cimage: media/Book.png
 ---
